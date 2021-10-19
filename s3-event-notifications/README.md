@@ -21,13 +21,13 @@ The SNS Topic has a subscription for a SQS queue, and this is where the final ev
 - npx projen
 - cdk deploy
 
-## Add and Delete S3 Objects
+### Add and Delete S3 Objects
 
 As a result of the deployment, two S3 buckets will be created.  
 Try adding an object to both these S3 buckets and then delete these objects.  
 You can use the AWS CLI of the S3 Web Console to do so.
 
-## Results
+### Results
 
 As a consequence of your S3 object deletion, you should receive messages in the SQS queue.  
 You can use the SQS Web Console to poll for messages and see that you received deletion notifications from both the S3 buckets.
