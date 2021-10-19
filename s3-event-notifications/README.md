@@ -9,7 +9,7 @@ By using the `s3:ObjectRemoved:*` event filter for S3 Bucket Notification Events
 The S3 Bucket Notification Events are pushed to an SNS Topic.  
 The SNS Topic has a subscription for a SQS queue, and this is where the final events land.
 
-![](diagram.png | width=100)
+<img src="diagram.png" width=200>
 
 ## Getting out
 
