@@ -11,7 +11,7 @@ The SNS Topic has a subscription for a SQS queue, and this is where the final ev
 
 <img src="diagram.png" width=200>
 
-## Getting out
+## Getting Started
 
 ### Deploy the AWS resources
 
